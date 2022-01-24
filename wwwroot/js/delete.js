@@ -32,27 +32,14 @@
         var controller = $(target).data('controller');
         var action = $(target).data('action');
         var bodyMessage = $(target).data('body-message');
-        redirectUrl = $(target).data('redirect-url');
-
-        url = "/" + controller + "/" + action + "?Id=" + Id;
         $(".delete-modal-body").text(bodyMessage);
         $("#deleteModal").modal('show');
     });
 
     $("#confirm-delete").on('click', () => {
-        $.get(url)
-            .done((result) => {
-                if (!redirectUrl) {
-                    return $(target).parent().parent().hide("slow");
-                }
-                window.location.href = redirectUrl;
-            })
-            .fail((error) => {
-                if (redirectUrl)
-                    window.location.href = redirectUrl;
-            }).always(() => {
-                $("#deleteModal").modal('hide');
-            });
+        document.getElementById("deleteform").submit()
+        console.log("deletings")
+        $("#deleteModal").modal('hide');
     });
 
 }()));

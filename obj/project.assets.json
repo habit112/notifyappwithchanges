@@ -784,11 +784,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vikumsri\\source\\repos\\NotifyMyHabit\\HabitApp.csproj",
+      "projectUniqueName": "C:\\Users\\Vikumsri\\Documents\\GitHub\\notifyappwithchanges\\HabitApp.csproj",
       "projectName": "HabitApp",
-      "projectPath": "C:\\Users\\Vikumsri\\source\\repos\\NotifyMyHabit\\HabitApp.csproj",
+      "projectPath": "C:\\Users\\Vikumsri\\Documents\\GitHub\\notifyappwithchanges\\HabitApp.csproj",
       "packagesPath": "C:\\Users\\Vikumsri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vikumsri\\source\\repos\\NotifyMyHabit\\obj\\",
+      "outputPath": "C:\\Users\\Vikumsri\\Documents\\GitHub\\notifyappwithchanges\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vikumsri\\AppData\\Roaming\\NuGet\\NuGet.Config",

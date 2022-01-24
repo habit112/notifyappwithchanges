@@ -22,7 +22,7 @@
                         </audio>
                 </div>
         </div>
-        <a href="/viewhabits" class="btn btn-success" >Go Back</a>
+        <button onclick="redirect()" class="btn btn-success" >Go Back</button>
       </div>
     </div>
 </div>
@@ -33,15 +33,21 @@
 var url_string = window.location.href
 var url = new URL(url_string);
 
-var idtext = url.searchParams.get("hid")
-var titleText = url.searchParams.get("htitle")
-var descriptiontext = url.searchParams.get("hdescription")
-var audiotext = window.localStorage.getItem("audio")
-var imagetext = window.localStorage.getItem("imagetext")
-var statustext = url.searchParams.get("hstatus")
-var pointtext = url.searchParams.get("hpoints")
-var videourltext = url.searchParams.get("hvideo")
+    var idtext = url.searchParams.get("hid")
+    var titleText = url.searchParams.get("htitle")
+    var descriptiontext = url.searchParams.get("hdescription")
+    var audiotext = window.localStorage.getItem("audio")
+    var imagetext = window.localStorage.getItem("imagetext")
+    var statustext = url.searchParams.get("hstatus")
+    var pointtext = url.searchParams.get("hpoints")
+    var videourltext = url.searchParams.get("hvideo")
+    var redirectUrl = url.searchParams.get("hredirect")
 
+
+    function redirect()
+    {
+        window.location.href = "/" + redirectUrl
+    }
 
 var audio = document.getElementById('myAudio');
 

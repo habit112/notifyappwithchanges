@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+D/bDB6SO6Iu0dQRoYHL4uW1azXfVOnWAlp3efvG03rNihfDjaa+WJ3zOCreMLR9Ts7k08sJ26YMTqU7FEVC4A==",
+  "dgSpecHash": "htMEWxat+WCwlnSKe92VqnmuQhYm/9HjV9hXaBlksrhUBcTIuirIo9oVzeBI9RgTkM7azedbfkkvB8O/AtS7LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vikumsri\\source\\repos\\NotifyMyHabit\\HabitApp.csproj",
+  "projectFilePath": "C:\\Users\\Vikumsri\\Documents\\GitHub\\notifyappwithchanges\\HabitApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vikumsri\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Vikumsri\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
